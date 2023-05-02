@@ -1,0 +1,65 @@
+.tombstone-content {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/images/tombstone.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+
+  .inspect-button {
+    font-family: 'Press Start 2P', cursive;
+    width: 156px;
+    height: 42px;
+    background: rgba(2, 2, 2, 0.5);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    top: 70%;
+}
+
+.overlay-image {
+    width: 400px;
+    height: auto;
+  }
+
+.image-overlay {
+    position: relative;
+    left: 55px;
+    top: 20%;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 20%;
+    right: -50px;
+    transform: translate(90%, -50%);
+    width: 575px;
+    height: 526px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #ffffff; 
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4;
+}
+
+.inspect-button-close {
+    font-family: 'Press Start 2P', cursive;
+    width: 156px;
+    height: 42px;
+    background: rgba(2, 2, 2, 0.5);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}

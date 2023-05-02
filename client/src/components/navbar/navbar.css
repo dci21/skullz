@@ -1,0 +1,107 @@
+.skullz__navbar {
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+  }
+  
+  .skullz__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .skullz__navbar-links_logo {
+    margin-right: 2rem;
+  }
+  
+  .skullz__navbar-links_logo img {
+    width: 95px;
+    height: 127.44px;
+  }
+  
+  .skullz__navbar-title {
+    font-size: 48px;
+    line-height: 48px;
+    line-height: 100%;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .skullz__navbar-title:hover {
+    color: red;
+  }
+  
+  .skullz__navbar-links_container {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .skullz__navbar-links-connect-wallet button,
+  .skullz__navbar-menu_container button {
+    font-family: var(--font-family);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    background-color: #fff;
+    width: 152px;
+    height: 58px;
+  }
+  
+  .skullz__navbar-links-connect-wallet button:hover,
+  .skullz__navbar-menu_container button:hover {
+    background-color: red;
+  }
+  
+  .skullz__navbar-links_container a,
+  .skullz__navbar-menu_container a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  .skullz__navbar-links_container a:hover,
+  .skullz__navbar-menu_container a:hover {
+    color: red;
+  }
+  
+  .skullz__navbar-menu {
+    margin-top: 1rem;
+    display: none;
+    position: relative;
+  }
+  
+  .skullz__navbar-menu svg {
+    cursor: pointer;
+  }
+  
+  .skullz__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skullz__navbar-menu_container a {
+    margin: 1rem 0;
+  }
+  
+  .skullz__navbar-menu {
+    margin-right: 20px;
+    display: none;
+    position: relative;
+  }
+  
